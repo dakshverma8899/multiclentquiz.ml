@@ -1,0 +1,38 @@
+body {
+  background: #000000;
+}
+.boxdiv {
+  color: #ffffff;
+  background: #181818;
+  border-radius: 25px;
+  padding: 15px;
+  height: 40vh;
+  width: 60vw;
+}
+.boxdiv .cen {
+  width: 100%;
+  height: 100%;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+}
+.headtags h2 {
+  text-align: center;
+  font-size: 2.2rem;
+  margin: 0 auto;
+}
+.center {
+  height: 95vh;
+  width: 98vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  /* flex-direction: column; */
+}
+@media (max-width: 550px) {
+  .headtags h2 {
+    font-size: 1.5rem;
+  }
+}
